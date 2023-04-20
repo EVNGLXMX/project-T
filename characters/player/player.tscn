@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c43ys76adioh"]
+
+[ext_resource type="Script" path="res://characters/player/scripts/player-main.gd" id="1_36btx"]
+[ext_resource type="Texture2D" uid="uid://gjw8unagjntw" path="res://characters/player/maru.png" id="1_q3sjg"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_36btx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(927, 518)
+scale = Vector2(0.109375, 0.109375)
+texture = ExtResource("1_q3sjg")
